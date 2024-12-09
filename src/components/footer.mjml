@@ -1,0 +1,7 @@
+<mj-section background-color="#022F3E">
+    <mj-column>
+        <mj-text mj-class="footer">Hecho con 💚</mj-text>
+        <mj-text mj-class="footer">San Jerónimo, 61993, Michoacán</mj-text>
+        <mj-text mj-class="footer">[currentyear] - Todos los derechos reservados</mj-text>
+    </mj-column>
+</mj-section>

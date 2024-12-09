@@ -1,0 +1,74 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font
+                    name="Roboto"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+            />
+
+            <mj-all font-family="Roboto, Arial, sans-serif" font-weight="300"/>
+            <mj-text font-size="16px" line-height="28px"/>
+            <mj-class name="heading" font-size="18px" font-weight="900"/>
+            <mj-class name="footer" font-size="12px" align="center" color="#fff" line-height="5px"/>
+            <mj-section background-color="#FFF"/>
+            <mj-column/>
+            <mj-image padding="0px"/>
+        </mj-attributes>
+        <mj-title>Te damos la bienvenida a XMLSAT Premium: Descarga tu demo ahora</mj-title>
+    </mj-head>
+    <mj-body>
+        <!-- logo-->
+        <mj-include path="../../components/header.mjml"/>
+
+        <!-- content -->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p>Hola [Name]</p>
+                    <p>Gracias por tu interés en <strong>XMLSAT Premium</strong>, la herramienta líder para la descarga
+                        masiva de XML y validación en tiempo real.
+                    </p>
+                    <p>
+                        <strong>Con nuestro demo, podrás:</strong>
+                    </p>
+                    <ul>
+                        <li>Descargar hasta 200,000 XML por solicitud.</li>
+                        <li>Validar tus CFDI directamente en línea con el SAT.</li>
+                        <li>Generar reportes detallados en Excel con tan solo un clic.</li>
+                    </ul>
+                    <p>
+                        <strong>💾 Descarga el demo aquí:</strong>
+                    </p>
+                </mj-text>
+                <mj-button background-color="#00B894" color="white"
+                           href="https://softwarepaq2.com/downloads/software/SetupXMLSAT_PREMIUM.exe" text-transform="uppercase"
+                           inner-padding="14px 32px">
+                    Descargar ahora
+                </mj-button>
+                <mj-text>
+                    <p>
+                        <strong>Tu demo será funcional por 10 días</strong>
+                    </p>
+                    <p>Aprovecha este tiempo para descubrir cómo <strong>XMLSAT Premium</strong> puede transformar tu
+                        gestión contable.
+                    </p>
+                    <p>Si tienes preguntas, no dudes en contactarnos. Estamos aquí para acompañarte en todo momento.</p>
+                </mj-text>
+
+                <mj-text>
+                    <p>Israel Castro
+                        <br/>
+                        <strong style="letter-spacing: 1px; color: #777">TODOCONTA</strong>
+                    </p>
+                </mj-text>
+
+                <mj-text align="center" font-size="12px">
+                    <a href="[unsubscribe]" style="text-decoration: underline;">Darse de baja</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- footer -->
+        <mj-include path="../../components/footer.mjml"/>
+    </mj-body>
+</mjml>

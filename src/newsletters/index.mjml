@@ -1,76 +1,45 @@
 <mjml>
-  <mj-head>
-    <mj-font
-      name="Roboto"
-      href="https://fonts.googleapis.com/css?family=Roboto"
-    />
-    <mj-attributes>
-      <mj-all font-family="Roboto, sans-serif" />
-      <mj-text font-size="16px" line-height="20px" />
-      <mj-class name="heading" font-size="18px" font-weight="900" />
-      <mj-section background-color="#fff" />
-      <mj-column />
-      <mj-image padding="0px" />
-    </mj-attributes>
-  </mj-head>
-  <mj-body>
-    <!-- logo-->
-    <mj-section>
-      <mj-column>
-        <mj-image
-          width="60px"
-          src="https://todoconta.s3-us-west-1.amazonaws.com/2020/05/isotipo.png"
-        />
-      </mj-column>
-    </mj-section>
+    <mj-head>
+        <mj-attributes>
+            <mj-font
+                    name="Roboto"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+            />
 
-    <!-- content -->
-    <mj-section>
-      <mj-column>
-        <mj-text>Hola [Name]</mj-text>
-        <mj-text>
-          Los Web Services del SAT para descarga masiva de CFDI ya se encuentran
-          trabajando con normalidad.
-        </mj-text>
+            <mj-all font-family="Roboto, Arial, sans-serif" font-weight="300"/>
+            <mj-text font-size="16px" line-height="28px"/>
+            <mj-class name="heading" font-size="18px" font-weight="900"/>
+            <mj-class name="footer" font-size="12px" align="center" color="#fff" line-height="5px"/>
+            <mj-section background-color="#FFF"/>
+            <mj-column/>
+            <mj-image padding="0px"/>
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+        <!-- logo-->
+        <mj-include path="../components/header.mjml"/>
 
-        <mj-text>
-          Lo único que deben hacer es
-          <strong>actualizar a la última versión</strong> 🌟.
-        </mj-text>
+        <!-- content -->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p>Hola [Name] 👋</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.</p>
+                    <p>Si tienes alguna duda, por no dudes en ponerte en contacto por <a href="https://wa.me/525544753602">WhatsApp</a>.
+                    </p>
+                    <p>Israel Castro
+                        <br/>
+                        <strong style="letter-spacing: 1px; color: #777">TODOCONTA</strong>
+                    </p>
+                </mj-text>
 
-        <mj-text>
-          Si la aplicación no te lanza el mensaje de actualización, recuerda que
-          puedes hacerlo de forma manual:
-        </mj-text>
+                <mj-text align="center" font-size="12px">
+                    <a href="[unsubscribe]" style="text-decoration: underline;">Darse de baja</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
 
-        <mj-text>
-          <strong>Paso 1.</strong> Nos dirigimos a la carpeta donde se encuentra
-          instalada la aplicación (C:\Archivos de programa\XMLSAT++\ o
-          C:\Archivos de programa\XMLSAT PREMIUM\).
-        </mj-text>
-
-        <mj-text>
-          <strong>Paso 2.</strong> Ejecutamos el archivo AUTOUPDATE.exe y
-          dejamos que la aplicación termine el proceso.
-        </mj-text>
-
-        <mj-text
-          >Si tienes dudas/problemas, aquí te muestro un vídeo de cómo hacerlo:
-        </mj-text>
-
-        <mj-text>
-          <a href="https://soporte.todoconta.com/actualizar-software-xmlsat/"
-            >https://soporte.todoconta.com/actualizar-software-xmlsat/</a
-          >
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- footer -->
-    <mj-section>
-      <mj-column>
-        <mj-text>Israel Castro</mj-text>
-      </mj-column>
-    </mj-section>
-  </mj-body>
+        <!-- footer -->
+        <mj-include path="../components/footer.mjml"/>
+    </mj-body>
 </mjml>

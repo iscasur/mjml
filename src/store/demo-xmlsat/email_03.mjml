@@ -1,0 +1,77 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font
+                    name="Roboto"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+            />
+
+            <mj-all font-family="Roboto, Arial, sans-serif" font-weight="300"/>
+            <mj-text font-size="16px" line-height="28px"/>
+            <mj-class name="heading" font-size="18px" font-weight="900"/>
+            <mj-class name="footer" font-size="12px" align="center" color="#fff" line-height="5px"/>
+            <mj-section background-color="#FFF"/>
+            <mj-column/>
+            <mj-image padding="0px"/>
+        </mj-attributes>
+        <mj-title>Valida tus CFDI en línea y evita sorpresas</mj-title>
+    </mj-head>
+    <mj-body>
+        <!-- logo-->
+        <mj-include path="../../components/header.mjml"/>
+
+        <!-- content -->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p>Hola [Name]</p>
+                    <p>¿Te preocupa recibir facturas canceladas sin saberlo? Con <strong>XMLSAT</strong>, puedes validar en tiempo real la vigencia de tus CFDI directamente con el SAT.</p>
+                    <p><strong>Beneficios clave:</strong></p>
+                    <ul>
+                        <li>Identifica rápidamente CFDI cancelados.</li>
+                        <li>Evita errores en tus reportes fiscales.</li>
+                        <li>Cumple con tus obligaciones fiscales sin contratiempos.</li>
+                    </ul>
+                    <p><strong>💾 ¿Aún no descargas el demo?</strong> Hazlo aquí:</p>
+                    <p>
+                        <a href="https://todoconta.com/xmlsat-demo">Descargar demo</a>
+                    </p>
+                    <p>
+                        <strong>🔒 ¿Quieres seguir disfrutando de estos beneficios? Adquiere tu licencia anual ahora.</strong>
+                    </p>
+                </mj-text>
+                <mj-button background-color="#00B894" color="white"
+                           href="https://todoconta.com/xmlsat" text-transform="uppercase"
+                           inner-padding="14px 32px">
+                    Comprar ahora
+                </mj-button>
+                <mj-divider border-width="0px" padding="24px" />
+                <mj-text container-background-color="#fef9c3">
+                    <p>
+                        <strong>🌟 ¿Necesitas reportes más completos?</strong>
+                    </p>
+                    <p>Con
+                        <strong>
+                            <a href="https://todoconta.com/xmlsatpremium">XMLSAT Premium</a>
+                        </strong>
+                        , disfruta de reportes avanzados y funcionalidad extendida para facilitar aún más tu contabilidad.
+                    </p>
+                </mj-text>
+
+                <mj-text>
+                    <p>Israel Castro
+                        <br/>
+                        <strong style="letter-spacing: 1px; color: #777">TODOCONTA</strong>
+                    </p>
+                </mj-text>
+
+                <mj-text align="center" font-size="12px">
+                    <a href="[unsubscribe]" style="text-decoration: underline;">Darse de baja</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- footer -->
+        <mj-include path="../../components/footer.mjml"/>
+    </mj-body>
+</mjml>

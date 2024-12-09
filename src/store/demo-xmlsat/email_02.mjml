@@ -1,0 +1,89 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font
+                    name="Roboto"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+            />
+
+            <mj-all font-family="Roboto, Arial, sans-serif" font-weight="300"/>
+            <mj-text font-size="16px" line-height="28px"/>
+            <mj-class name="heading" font-size="18px" font-weight="900"/>
+            <mj-class name="footer" font-size="12px" align="center" color="#fff" line-height="5px"/>
+            <mj-section background-color="#FFF"/>
+            <mj-column/>
+            <mj-image padding="0px"/>
+        </mj-attributes>
+        <mj-title>Descarga hasta 4,000 XML diarios con XMLSAT</mj-title>
+    </mj-head>
+    <mj-body>
+        <!-- logo-->
+        <mj-include path="../../components/header.mjml"/>
+
+        <!-- content -->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p>Hola [Name]</p>
+                    <p>¿Sabías que con <strong>XMLSAT</strong> puedes descargar hasta <strong>4,000 XML diarios</strong> por
+                        RFC directamente desde el SAT?
+                    </p>
+                    <p>Esta herramienta está diseñada para contadores y negocios que buscan simplificar la gestión de
+                        sus CFDI, permitiendo:
+                    </p>
+                    <ul>
+                        <li>Descargas rápidas y eficientes.</li>
+                        <li>Organización de grandes volúmenes de datos en minutos.</li>
+                        <li>Optimización del tiempo en tareas repetitivas.</li>
+                    </ul>
+                    <p>
+                        <strong>🚀💾 ¿Aún no descargas el demo?</strong>
+                    </p>
+                    <p>
+                        Hazlo aquí:
+                        <a href="https://todoconta.com/xmlsat-demo">Descargar demo</a>
+                    </p>
+                    <p>
+                        <strong>✨ ¿Te convenció el demo?</strong>
+                    </p>
+                    <p>Adquiere tu licencia anual y disfruta de todos los beneficios de XMLSAT.</p>
+                </mj-text>
+                <mj-button href="https://todoconta.com/xmlsat"
+                           background-color="#00B894"
+                           color="white"
+                           text-transform="uppercase"
+                           inner-padding="14px 32px">
+                    Comprar ahora
+                </mj-button>
+                <mj-divider border-width="0px" padding="24px" />
+                <mj-text container-background-color="#fef9c3">
+                    <p>
+                        <strong>✨ ¿Buscas más potencia?</strong>
+                    </p>
+                    <p>Con
+                        <strong>
+                            <a href="https://todoconta.com/xmlsatpremium">XMLSAT Premium</a>
+                        </strong>
+                        , aumenta tu capacidad de descarga a 200,000 XML por solicitud y accede a funcionalidades
+                        exclusivas.
+                    </p>
+                    <p>Transforma tu manera de gestionar CFDI.</p>
+                </mj-text>
+
+                <mj-text>
+                    <p>Israel Castro
+                        <br/>
+                        <strong style="letter-spacing: 1px; color: #777">TODOCONTA</strong>
+                    </p>
+                </mj-text>
+
+                <mj-text align="center" font-size="12px">
+                    <a href="[unsubscribe]" style="text-decoration: underline;">Darse de baja</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- footer -->
+        <mj-include path="../../components/footer.mjml"/>
+    </mj-body>
+</mjml>

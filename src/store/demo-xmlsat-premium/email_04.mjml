@@ -1,0 +1,75 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font
+                    name="Roboto"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+            />
+
+            <mj-all font-family="Roboto, Arial, sans-serif" font-weight="300"/>
+            <mj-text font-size="16px" line-height="28px"/>
+            <mj-class name="heading" font-size="18px" font-weight="900"/>
+            <mj-class name="footer" font-size="12px" align="center" color="#fff" line-height="5px"/>
+            <mj-section background-color="#FFF"/>
+            <mj-column/>
+            <mj-image padding="0px"/>
+        </mj-attributes>
+        <mj-title>Cómo un despacho ahorró 10 horas semanales con XMLSAT Premium</mj-title>
+    </mj-head>
+    <mj-body>
+        <!-- logo-->
+        <mj-include path="../../components/header.mjml"/>
+
+        <!-- content -->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p>Hola [Name]</p>
+                    <p>Un despacho contable enfrentaba problemas con la descarga manual de XML y la validación de CFDI.
+                        Con <strong>XMLSAT Premium</strong>, lograron:
+                    </p>
+                    <ul>
+                        <li>Descargar más de <strong>500,000 XML en un mes</strong>.
+                        </li>
+                        <li>Validar automáticamente más de <strong>3,000 CFDI</strong> en tiempo real.
+                        </li>
+                        <li>Reducir 10 horas semanales en tareas repetitivas.</li>
+                    </ul>
+                    <p>
+                        <strong>💾 ¿Aún no exploras todas las ventajas del demo?</strong>
+                        Descárgalo aquí:
+                    </p>
+                    <p>
+                        <a href="https://softwarepaq2.com/downloads/software/SetupXMLSAT_PREMIUM.exe">Descargar demo</a>
+                    </p>
+                    <p>
+                        <strong>🎯 Convierte este ahorro de tiempo en tu realidad. Adquiere tu licencia anual hoy mismo.
+                        </strong>
+                    </p>
+                </mj-text>
+                <mj-button background-color="#00B894" color="white"
+                           href="https://todoconta.com/xmlsatpremium" text-transform="uppercase"
+                           inner-padding="14px 32px">
+                    Comprar ahora
+                </mj-button>
+                <mj-text>
+                    <p>Transforma tu gestión contable y alcanza una nueva eficiencia.</p>
+                </mj-text>
+
+                <mj-text>
+                    <p>Israel Castro
+                        <br/>
+                        <strong style="letter-spacing: 1px; color: #777">TODOCONTA</strong>
+                    </p>
+                </mj-text>
+
+                <mj-text align="center" font-size="12px">
+                    <a href="[unsubscribe]" style="text-decoration: underline;">Darse de baja</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- footer -->
+        <mj-include path="../../components/footer.mjml"/>
+    </mj-body>
+</mjml>

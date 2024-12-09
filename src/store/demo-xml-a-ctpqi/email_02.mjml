@@ -1,0 +1,74 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font
+                    name="Roboto"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+            />
+
+            <mj-all font-family="Roboto, Arial, sans-serif" font-weight="300"/>
+            <mj-text font-size="16px" line-height="28px"/>
+            <mj-class name="heading" font-size="18px" font-weight="900"/>
+            <mj-class name="footer" font-size="12px" align="center" color="#fff" line-height="5px"/>
+            <mj-section background-color="#FFF"/>
+            <mj-column/>
+            <mj-image padding="0px"/>
+        </mj-attributes>
+        <mj-title>Carga cientos de pólizas en minutos con XML a CONTPAQi</mj-title>
+    </mj-head>
+    <mj-body>
+        <!-- logo-->
+        <mj-include path="../../components/header.mjml"/>
+
+        <!-- content -->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p>Hola [Name]</p>
+                    <p>¿Sabías que con <strong>XML a CONTPAQi</strong> puedes cargar cientos de pólizas de manera masiva en cuestión de minutos?</p>
+                    <p>Esta herramienta está diseñada para que:</p>
+                    <ul>
+                        <li>Generes y envíes pólizas directamente desde Excel.</li>
+                        <li>Asocies automáticamente los XML al ADD de CONTPAQi.</li>
+                        <li>Personalices tus pólizas con segmentos de negocio, diarios y movimientos en moneda extranjera.</li>
+                    </ul>
+
+                    <p>
+                        <strong>💾 ¿Aún no descargas el demo?</strong> Hazlo aquí:
+                    </p>
+                    <p>
+                        <a href="https://todoconta.com/xmlctpqi-demo">Descargar demo</a>
+                    </p>
+                    <p>
+                        <strong>✨ ¿Te convenció el demo?</strong>
+                    </p>
+                    <p>Adquiere tu licencia anual y disfruta de todos los beneficios de <strong>XML a CONTPAQi</strong>.</p>
+                </mj-text>
+                <mj-button background-color="#00B894" color="white"
+                           href="https://todoconta.com/xmlctpqi" text-transform="uppercase"
+                           inner-padding="14px 32px">
+                    Comprar ahora
+                </mj-button>
+                <mj-text>
+                    <p>🚀 Transforma tu flujo contable y ahorra horas de trabajo con esta funcionalidad.
+
+</p>
+                </mj-text>
+
+                <mj-text>
+                    <p>Israel Castro
+                        <br/>
+                        <strong style="letter-spacing: 1px; color: #777">TODOCONTA</strong>
+                    </p>
+                </mj-text>
+
+                <mj-text align="center" font-size="12px">
+                    <a href="[unsubscribe]" style="text-decoration: underline;">Darse de baja</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- footer -->
+        <mj-include path="../../components/footer.mjml"/>
+    </mj-body>
+</mjml>

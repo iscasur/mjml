@@ -1,0 +1,8 @@
+<mj-section>
+    <mj-column>
+        <mj-image
+                width="60px"
+                src="https://todoconta.s3-us-west-1.amazonaws.com/2020/05/isotipo.png"
+        />
+    </mj-column>
+</mj-section>
